@@ -1,0 +1,273 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="SkibidiMusic - The Ultimate Discord Music Bot">
+	<main>
+		<!-- Hero Section -->
+		<section
+			class="relative min-h-screen flex items-center justify-center overflow-hidden"
+		>
+			<div class="absolute inset-0 z-0">
+				<div
+					class="absolute inset-0 bg-gradient-to-br from-purple-900 via-gray-900 to-black opacity-90"
+				>
+				</div>
+				<div
+					class="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20"
+				>
+				</div>
+
+				<!-- Music Waves -->
+				<div
+					class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] pointer-events-none"
+				>
+					<div
+						class="absolute inset-0 border-2 border-purple-500/30 rounded-full animate-wave delay-0"
+					>
+					</div>
+					<div
+						class="absolute inset-0 border-2 border-purple-500/30 rounded-full animate-wave delay-1000"
+					>
+					</div>
+					<div
+						class="absolute inset-0 border-2 border-purple-500/30 rounded-full animate-wave delay-2000"
+					>
+					</div>
+					<div
+						class="absolute inset-0 border-2 border-purple-500/30 rounded-full animate-wave delay-3000"
+					>
+					</div>
+				</div>
+			</div>
+
+			<div class="relative z-10 container mx-auto px-4 text-center">
+				<h1
+					class="text-6xl md:text-8xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mb-6 animate-fade-in-down"
+				>
+					SkibidiMusic
+				</h1>
+				<p
+					class="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto animate-fade-in-up"
+				>
+					Experience high-quality music in your Discord server with
+					zero lag and 24/7 uptime.
+				</p>
+				<div
+					class="flex flex-col md:flex-row gap-4 justify-center animate-fade-in-up delay-100"
+				>
+					<a
+						href="https://discord.com/oauth2/authorize?client_id=1438940976549728306"
+						class="px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-purple-500/50"
+					>
+						Add to Discord
+					</a>
+					<a
+						href="#features"
+						class="px-8 py-4 bg-gray-800 hover:bg-gray-700 text-white font-bold rounded-full transition-all transform hover:scale-105 border border-gray-700"
+					>
+						Learn More
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features Section -->
+		<section id="features" class="py-20 bg-black">
+			<div class="container mx-auto px-4">
+				<h2 class="text-4xl font-bold text-center mb-16 text-white">
+					Why SkibidiMusic?
+				</h2>
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+					<!-- Feature 1 -->
+					<div
+						class="p-8 rounded-2xl bg-gray-900/50 border border-gray-800 backdrop-blur-sm hover:border-purple-500/50 transition-all group"
+					>
+						<div
+							class="w-12 h-12 bg-purple-900/50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-6 w-6 text-purple-400"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"
+								></path>
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold mb-4 text-white">
+							High Quality Audio
+						</h3>
+						<p class="text-gray-400">
+							Crystal clear sound with support for multiple
+							sources including Spotify, SoundCloud, and YouTube.
+						</p>
+					</div>
+
+					<!-- Feature 2 -->
+					<div
+						class="p-8 rounded-2xl bg-gray-900/50 border border-gray-800 backdrop-blur-sm hover:border-pink-500/50 transition-all group"
+					>
+						<div
+							class="w-12 h-12 bg-pink-900/50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-6 w-6 text-pink-400"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+								></path>
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold mb-4 text-white">
+							24/7 Uptime
+						</h3>
+						<p class="text-gray-400">
+							Never miss a beat. Our servers are online around the
+							clock to ensure your music never stops.
+						</p>
+					</div>
+
+					<!-- Feature 3 -->
+					<div
+						class="p-8 rounded-2xl bg-gray-900/50 border border-gray-800 backdrop-blur-sm hover:border-blue-500/50 transition-all group"
+					>
+						<div
+							class="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-6 w-6 text-blue-400"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+								></path>
+							</svg>
+						</div>
+						<h3 class="text-2xl font-bold mb-4 text-white">
+							Easy Control
+						</h3>
+						<p class="text-gray-400">
+							Simple and intuitive commands, plus a web dashboard
+							for full control over your queue.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="bg-gray-900 py-12 border-t border-gray-800">
+			<div class="container mx-auto px-4">
+				<div
+					class="flex flex-col md:flex-row justify-between items-center"
+				>
+					<div class="mb-6 md:mb-0">
+						<h4 class="text-2xl font-bold text-white mb-2">
+							SkibidiMusic
+						</h4>
+						<p class="text-gray-500">
+							The best music experience for Discord.
+						</p>
+					</div>
+					<div class="flex gap-8">
+						<a
+							href="/terms"
+							class="text-gray-400 hover:text-white transition-colors"
+							>Terms</a
+						>
+						<a
+							href="/privacy"
+							class="text-gray-400 hover:text-white transition-colors"
+							>Privacy</a
+						>
+						<a
+							href="#"
+							class="text-gray-400 hover:text-white transition-colors"
+							>Support</a
+						>
+					</div>
+				</div>
+				<div class="mt-8 text-center text-gray-600 text-sm">
+					&copy; {new Date().getFullYear()} SkibidiMusic. All rights reserved.
+				</div>
+			</div>
+		</footer>
+	</main>
+</Layout>
+
+<style>
+	@keyframes fade-in-down {
+		0% {
+			opacity: 0;
+			transform: translateY(-20px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	@keyframes fade-in-up {
+		0% {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	@keyframes wave {
+		0% {
+			transform: scale(0.5);
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+		100% {
+			transform: scale(1.5);
+			opacity: 0;
+		}
+	}
+	.animate-fade-in-down {
+		animation: fade-in-down 0.8s ease-out forwards;
+	}
+	.animate-fade-in-up {
+		animation: fade-in-up 0.8s ease-out forwards;
+	}
+	.animate-wave {
+		animation: wave 4s infinite linear;
+	}
+	.delay-100 {
+		animation-delay: 0.1s;
+	}
+	.delay-1000 {
+		animation-delay: 1s;
+	}
+	.delay-2000 {
+		animation-delay: 2s;
+	}
+	.delay-3000 {
+		animation-delay: 3s;
+	}
+</style>
